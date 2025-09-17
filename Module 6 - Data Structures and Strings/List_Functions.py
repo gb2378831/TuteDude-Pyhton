@@ -21,7 +21,7 @@ l = [10.1,1980,10,12,10]
 #to delete the element by index value, but it only delete one element
 # l.pop(2)
 
-#inerting elements in between of elements
+#inserting elements in between of elements
 # l.insert(2,'pop')
 
 #arrange the elements of a list in a specific order

@@ -5,7 +5,6 @@ dictionary['e'] = 'elephant'
 
 # Deleting elements from it
 del(dictionary['c'])
-
 print(dictionary)
 
 #Checking elements in it
@@ -18,4 +17,4 @@ print(dictionary.keys())
 print(dictionary.values())
 
 #Returning none, if there is no key
-print(dictionary.get('g','Key Not Found'))
+print(dictionary.get('b','Key Not Found'))
