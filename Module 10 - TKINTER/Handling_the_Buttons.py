@@ -1,0 +1,19 @@
+# step 1 : import tkinter
+from tkinter import *
+
+# step 2 : gui interaction
+window = Tk()
+
+# step 3 : adding inputs
+window.title("Simple")
+window.geometry("500x500")
+
+def log_entry():
+    print("Logged in")
+
+button = Button(window, text="LOGIN", command=log_entry, width=12,bg="red", fg="white",font=("bold",12), activebackground="black", activeforeground="white")
+button.pack()
+
+
+# step 4 : main loop
+window.mainloop()
